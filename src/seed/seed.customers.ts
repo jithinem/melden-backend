@@ -16,6 +16,13 @@ const seedCustomers = async () => {
       phone_number: '0987654321',
       gst_number: null,
     },
+    {
+      first_name: 'Melden',
+      last_name: 'Technologies',
+      email: 'finance@melden.example',
+      phone_number: '9876543210',
+      gst_number: '27AABCU9603R1ZM',
+    },
   ];
 
   for (const customer of customers) {

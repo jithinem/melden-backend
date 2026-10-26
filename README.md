@@ -12,7 +12,7 @@ Express API for customer, invoice, and payment management.
 Create a PostgreSQL database, then create a `.env` file in the repository root:
 
 ```env
-DATABASE_URL="postgresql://<user>:root@localhost:5432/<database>?schema=public"
+DATABASE_URL="postgresql://<user>:<password>@localhost:5432/<database>?schema=public"
 PORT=5001
 NODE_ENV=development
 ```

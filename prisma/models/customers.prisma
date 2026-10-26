@@ -10,6 +10,9 @@ model Customer {
   created_at   DateTime @default(now())
   updated_at   DateTime @updatedAt
 
+  invoices Invoice[]
+  payments Payment[]
+
   @@map("customers")
   @@schema("public")
 }
